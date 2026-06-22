@@ -1,0 +1,7 @@
+同一个账号下以下内容会发生变化
+
+
+cookies: {可以统一不变：'ntes_utid', 可以是长时间不变：'JSESSIONID-WYYY', 'playerid'}
+headers: {可以没有：'nm-gcore-status', 统一不变：'accept' }
+params:  {会随着歌单和歌曲的变化变化（其中歌单信息和歌曲图片链接必须用id）：'id', 歌词必须用这个：'csrf_token'}
+data: {评论、歌曲链接、歌词用得到}
